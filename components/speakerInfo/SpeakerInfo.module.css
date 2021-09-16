@@ -1,0 +1,33 @@
+.speakerCard {
+  width: 100%;
+  max-width: 263px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 47px;
+}
+
+.speakerName {
+  margin-bottom: 18px;
+}
+
+.checkIcon {
+  margin-right: 12px;
+}
+
+.speakerInfo {
+  margin-bottom: 7px;
+}
+
+@media screen and (min-width: 584px) {
+  .speakerCard {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .speakerCard {
+    margin-right: 20px;
+  }
+}

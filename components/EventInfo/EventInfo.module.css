@@ -1,0 +1,55 @@
+.eventOverlay {
+  max-width: 270px;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* margin-bottom: 50px; */
+}
+
+.button {
+  height: 48px;
+  filter: drop-shadow(0px 10px 25px rgba(21, 37, 72, 0.1));
+  margin-bottom: 24px;
+  background-color: #1565d8;
+  color: white;
+  font-family: "open sans";
+  font-weight: 700;
+  font-size: 16px;
+  padding: 13px 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.arrowOverlay {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.button.secondary {
+  background-color: white;
+  color: #1565d8;
+  border: 2px solid #1565d8;
+}
+
+.eventTitle {
+  margin-top: 16px;
+  color: var(--mainTextColor);
+  font-weight: bold;
+  margin-bottom: 8.2px;
+}
+
+.eventSubtitle {
+  color: var(--subtitleColor);
+  margin-bottom: 29px;
+  line-height: 28px;
+}

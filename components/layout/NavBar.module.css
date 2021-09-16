@@ -1,0 +1,79 @@
+.nav {
+  height: 64px;
+  max-width: 1140px;
+  margin: 0 auto 25px;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navList {
+  max-width: 594px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navItem {
+  width: 100%;
+  height: 22px;
+  list-style: none;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navLink {
+  display: block;
+  font-family: "open sans";
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLink_icon {
+  height: 16px;
+  width: 9px;
+  display: grid;
+  place-items: center;
+  margin-left: 4px;
+}
+
+.navButton {
+  height: 48px;
+  width: 131px;
+  filter: drop-shadow(0px 10px 25px rgba(21, 37, 72, 0.1));
+  color: #1565d8;
+  border: 2px solid #1565d8;
+  font-family: "open sans";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1190px) {
+  .nav {
+    margin: 0 auto 32px;
+  }
+}
