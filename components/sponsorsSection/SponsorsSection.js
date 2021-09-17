@@ -7,7 +7,7 @@ import Netflix from "../../images/sponsors/netflix.png";
 import Fitbit from "../../images/sponsors/fitbit.png";
 import Google from "../../images/sponsors/google.png";
 import Airbnb from "../../images/sponsors/airbnb.png";
-import Uber from "../../images/sponsors/item.png";
+import Uber from "../../images/sponsors/uber.png";
 
 export default function SponsorsSection() {
   return (
