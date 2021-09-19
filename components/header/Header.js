@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <header className={style.header}>
       <div className={style.headerImage}>
-        <Image src={HeroImg} />
+        <Image src={HeroImg} alt="group of events images" />
       </div>
       <div className={style.headerContent}>
         <h1 className={style.title}>TheFutureTalks Conference</h1>

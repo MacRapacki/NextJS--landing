@@ -17,7 +17,7 @@ export default function EventInfo({
       <button className={`${style.button} ${secondary && style.secondary}`}>
         {buttonText}
         <div className={style.arrowOverlay}>
-          <Image src={secondary ? ArrowIconSec : ArrowIcon} />
+          <Image src={secondary ? ArrowIconSec : ArrowIcon} alt="arrow icon" />
         </div>
       </button>
       <Image src={CheckIcon} alt="check icon" width={24} height={24} />

@@ -24,7 +24,7 @@ export default function NavBar() {
                 <a className={style.navLink}>
                   Landings{" "}
                   <div className={style.navLink_icon}>
-                    <Image src={AngleDown} />
+                    <Image src={AngleDown} alt="arrow dow icon" />
                   </div>
                 </a>
               </li>
@@ -32,7 +32,7 @@ export default function NavBar() {
                 <a className={style.navLink}>
                   Pages{" "}
                   <div className={style.navLink_icon}>
-                    <Image src={AngleDown} />
+                    <Image src={AngleDown} alt="arrow dow icon" />
                   </div>
                 </a>
               </li>

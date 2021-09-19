@@ -17,22 +17,22 @@ export default function SponsorsSection() {
       </h2>
       <div className={style.imgContainer}>
         <div className={style.imgControl}>
-          <Image src={Slack} />
+          <Image src={Slack} alt="slack logo" />
         </div>
         <div className={style.imgControl}>
-          <Image src={Netflix} />
+          <Image src={Netflix} alt="netflix logo" />
         </div>
         <div className={style.imgControl}>
-          <Image src={Fitbit} />
+          <Image src={Fitbit} alt="fitbit logo" />
         </div>
         <div className={style.imgControl}>
-          <Image src={Google} />
+          <Image src={Google} alt="google logo" />
         </div>
         <div className={style.imgControl}>
-          <Image src={Airbnb} />
+          <Image src={Airbnb} alt="airbnb logo" />
         </div>
         <div className={style.imgControl}>
-          <Image src={Uber} />
+          <Image src={Uber} alt="uber logo" />
         </div>
       </div>
     </section>
