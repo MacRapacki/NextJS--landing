@@ -1,9 +1,18 @@
 import "../styles/globals.css";
 import Layout from "../components/layout/layout";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <Head>
+        <title>ehya</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="description"
+          content="All You need in one place. Ehya."
+        ></meta>
+      </Head>
       <Layout>
         {" "}
         <Component {...pageProps} />
